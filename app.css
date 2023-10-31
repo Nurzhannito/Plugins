@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header-area {
+    background-color: #343a40;
+}
+
+.main-menu ul {
+    text-align: center;
+}
+
+.main-menu ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    padding: 30px 20px;
+    margin: 0px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+.main-menu ul li a:hover {
+    color: #000;
+}
+
+.image-gallery {
+    padding: 60px 55px;
+    background-color: #eaeaea;
+}
+
+.images{
+    display: flex;
+}
+
+.images a img {
+    width: 100%;
+}
+
+.images a {
+    margin: 10px;
+}
